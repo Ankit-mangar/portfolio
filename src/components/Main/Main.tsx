@@ -1,19 +1,18 @@
 import Particles from "react-tsparticles";
-import { Container } from "./styles";
-import { Hero } from "../Hero/Hero";
+import angularIcon from "../../assets/angularIcon.png";
+import boostrapIcon from "../../assets/bootstrap-icon.svg";
+import cssIcon from "../../assets/css-icon.svg";
+import htmlIcon from "../../assets/html-icon.svg";
+import jsIcon from "../../assets/js-icon.svg";
+import muiIcon from "../../assets/mui.png";
+import reactIcon from "../../assets/react-icon.svg";
+import sassIcon from "../../assets/sass-icon.svg";
+import typescriptIcon from "../../assets/typescript-icon.svg";
 import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
+import { Hero } from "../Hero/Hero";
 import { Project } from "../Project/Project";
-import shopify from "../../assets/shopify.svg";
-import htmlIcon from "../../assets/html-icon.svg";
-import cssIcon from "../../assets/css-icon.svg";
-import sassIcon from "../../assets/sass-icon.svg";
-import jsIcon from "../../assets/js-icon.svg";
-import nodeIcon from "../../assets/node-icon.svg";
-import reactIcon from "../../assets/react-icon.svg";
-import typescriptIcon from "../../assets/typescript-icon.svg";
-import vueIcon from "../../assets/vue-icon.svg";
-import boostrapIcon from "../../assets/bootstrap-icon.svg";
+import { Container } from "./styles";
 
 export function Main() {
   return (
@@ -89,7 +88,7 @@ export function Main() {
               blink: false,
               color: "#000",
               consent: false,
-              distance: 150,
+              distance: 100,
               enable: false,
               opacity: 0.4,
               width: 1,
@@ -158,22 +157,12 @@ export function Main() {
                   height: 20,
                 },
                 {
-                  src: shopify,
-                  width: 20,
-                  height: 20,
-                },
-                {
                   src: htmlIcon,
                   width: 20,
                   height: 20,
                 },
                 {
                   src: jsIcon,
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: nodeIcon,
                   width: 20,
                   height: 20,
                 },
@@ -192,13 +181,13 @@ export function Main() {
                   width: 20,
                   height: 20,
                 },
-                // {
-                //   "src": vscodeIcon,
-                //   "width": 20,
-                //   "height": 20
-                // },
                 {
-                  src: vueIcon,
+                  src: angularIcon,
+                  width: 20,
+                  height: 20,
+                },
+                {
+                  src: muiIcon,
                   width: 20,
                   height: 20,
                 },
