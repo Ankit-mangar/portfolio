@@ -8,6 +8,7 @@ import githubIcon from "../../assets/github.svg";
 import whatsapp from "../../assets/whatsapp.svg";
 import Hello from "../../assets/Hello.gif";
 import telegram from "../../assets/telegram.svg";
+import medium from "../../assets/medium.png";
 
 export function Hero() {
   return (
@@ -59,6 +60,13 @@ export function Hero() {
             </a>
             <a href="https://t.me/Craazyyyyy" target="_blank" rel="noreferrer">
               <img src={telegram} alt="telegram" />
+            </a>
+            <a
+              href="https://medium.com/@ankit.thapa10121998"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={medium} alt="GitHub" />
             </a>
           </div>
         </ScrollAnimation>

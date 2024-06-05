@@ -1,6 +1,7 @@
 import githubIcon from "../../assets/github.svg";
 import instagramIcon from "../../assets/instagram.svg";
 import linkedin from "../../assets/linkedin.svg";
+import medium from "../../assets/medium.png";
 import telegram from "../../assets/telegram.svg";
 import whatsapp from "../../assets/whatsapp.svg";
 import { Container } from "./styles";
@@ -43,6 +44,13 @@ export function Footer() {
           rel="noreferrer"
         >
           <img src={instagramIcon} alt="Instagram" />
+        </a>
+        <a
+          href="https://medium.com/@ankit.thapa10121998"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={medium} alt="Instagram" />
         </a>
       </div>
     </Container>
