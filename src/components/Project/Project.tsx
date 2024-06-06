@@ -61,13 +61,6 @@ export function Project() {
               Restore is a healthcare project focused on therapy services, aimed at aiding individuals in their recovery from injuries or surgeries. Restore offer personalized rehabilitation programs delivered by expert therapists, accessible at hospitals, rehabilitation centers, or even at home. Through teletherapy solutions and a network of skilled professionals, Restore facilitates seamless healing journeys, promoting independence and improved quality of life.
               </p>
             </div>
-            <footer>
-              <ul className="tech-list">
-                <li>XGBoost</li>
-                <li>Pandas</li>
-                <li>Matplotlib</li>
-              </ul>
-            </footer>
           </div>
         </ScrollAnimation>
 

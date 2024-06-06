@@ -5,6 +5,8 @@ import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
+import javaIcon from "../../assets/java.png";
+import springIcon from "../../assets/spring.png";
 import reactIcon from "../../assets/react-icon.svg";
 import muiIcon from "../../assets/mui.png";
 import typescriptIcon from "../../assets/typescript-icon.svg";
@@ -95,6 +97,16 @@ export function About() {
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
               <img src={jsIcon} alt="JavaScript" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={javaIcon} alt="java" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={springIcon} alt="spring" />
             </ScrollAnimation>
           </div>
         </div>

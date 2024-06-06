@@ -8,6 +8,8 @@ import muiIcon from "../../assets/mui.png";
 import reactIcon from "../../assets/react-icon.svg";
 import sassIcon from "../../assets/sass-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
+import springIcon from "../../assets/spring.png";
+import javaIcon from "../../assets/java.png";
 import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
 import { Hero } from "../Hero/Hero";
@@ -188,6 +190,16 @@ export function Main() {
                 },
                 {
                   src: muiIcon,
+                  width: 20,
+                  height: 20,
+                },
+                {
+                  src: javaIcon,
+                  width: 20,
+                  height: 20,
+                },
+                {
+                  src: springIcon,
                   width: 20,
                   height: 20,
                 },
