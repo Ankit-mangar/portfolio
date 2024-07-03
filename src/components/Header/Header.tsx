@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import { HashLink, NavHashLink } from "react-router-hash-link";
 import Resume from "../../assets/ankit-cv.pdf";
@@ -28,6 +28,11 @@ export function Header() {
   function closeMenu() {
     setActive(false);
   }
+
+  useEffect(() => {
+    toggleTheme();
+  }, []);
+
   return (
     <Container className="header-fixed">
       <Router>
@@ -40,6 +45,7 @@ export function Header() {
           type="checkbox"
           id="switch"
           name="mode"
+          defaultChecked
         />
         <label htmlFor="switch">Toggle</label>
         <nav className={isActive ? "active" : ""}>
